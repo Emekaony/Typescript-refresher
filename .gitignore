@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Output of the TypeScript compiler
+dist/
+build/
+out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Environment variables
+.env
+.env.test
+
+# Mac and OS generated files
+.DS_Store
+
+# Ignore IDE-specific settings
+.vscode/
+.idea/

@@ -1,0 +1,5 @@
+The whole point of me picking up Typescript is so that I can have working projects I can see asap.
+Go is nice, but a little up there rn in terms of tech. Typescript is a lot lighter
+but still provides me with the typed nature of languages which I love.
+
+I hope that I can finish this Microsoft Learning training and get to building asap.

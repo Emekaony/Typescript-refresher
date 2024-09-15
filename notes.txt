@@ -1,0 +1,3 @@
+Things to learn
+1. Make sure to always have strictNullChecks on when using ts.
+2. compile ur ts code with npx ts-node <name_of_file>.
