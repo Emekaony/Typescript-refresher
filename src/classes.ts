@@ -1,5 +1,5 @@
 class ReferenceItem {
-  // no need for this
+  private _itemId: number = 0;
   //   public id: number;
   //   public price: number;
   //   public name: string;
@@ -23,6 +23,16 @@ class ReferenceItem {
     public name: string,
     public counter: number
   ) {}
+
+  // getters and setters allow you to perform some logic before setting values and getting them too
+  // maybe checking if a user is authenticated before allowing the user to gain access? idk
+  get itemID(): number {
+    return this._itemId;
+  }
+
+  set itemID(newItem: number) {
+    this._itemId = newItem;
+  }
 
   // basic instance method
   doSomething() {
