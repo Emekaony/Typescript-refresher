@@ -40,6 +40,10 @@ async function guessingGame() {
     }
 
     const guess: number = parseInt(userInput);
+    if (Number.isNaN(guess)) {
+      console.log("Invalid input, try again");
+      continue;
+    }
     if (guess < computerGuess) {
       console.log("Too low, try again");
     } else if (guess > computerGuess) {
