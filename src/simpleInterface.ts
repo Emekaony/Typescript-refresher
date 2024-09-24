@@ -4,7 +4,7 @@ interface Readable {
 
 class TextBook implements Readable {
   read(): string {
-    const message = "I am reading";
+    const message = "I am being read";
     return message;
   }
 }
