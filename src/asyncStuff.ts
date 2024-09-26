@@ -25,3 +25,9 @@ getMoviesByStreaming()
   })
   .catch((err) => console.log(`Error: ${err}`));
 console.log("search completed");
+
+// sometimes new promise((res, rej)) is unnecessary
+async function simplePromise(): Promise<string> {
+  const message = "This is as simple as it gets";
+  return Promise.resolve(message);
+}
